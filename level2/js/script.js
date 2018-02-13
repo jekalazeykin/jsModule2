@@ -1,8 +1,7 @@
 let num = prompt('Введите число участников группы');
-num = Number(num);
 
-if (num > 0 === true && (num ^ 0) === num) {
-  num = num;
+if (num > 0 == true && (num ^ 0) == num) {
+  num = Number(num);
 } else {
   alert("неправильный ввод");
 }
